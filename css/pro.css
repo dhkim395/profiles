@@ -115,15 +115,17 @@ button:focus {
 }
 /* Home */
 #home {
-  background-color: var(--color-primary);
-  color: var(--color-text);
-  padding: 7rem 1rem 5rem;
-  text-align: center;
+  background: linear-gradient(to bottom, var(--color-primary-variant), #fff);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+  margin: 0;
 }
 
 .home__avatar {
-  width: 250px;
-  height: 250px;
+  width: 10%;
+  height: 10%;
   border-radius: 10%;
   border: 3px solid var(--color-accent);
   object-fit: cover; /* 이미지가 부모요소의 크기에 맞춰 비율을 유지하면서 꽉 차도록 설정*/
