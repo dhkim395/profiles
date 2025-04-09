@@ -349,7 +349,7 @@ button:focus {
   white-space: nowrap;
 }
 .category--selected {
-  background-color: var(--color-accent);
+  background-color: var(--color-white);
   color: var(--color-primary);
 }
 .category__count {
@@ -361,7 +361,7 @@ button:focus {
   height: 28px;
   line-height: 28px;
   border-radius: 100%;
-  background-color: var(--color-accent-variant);
+  background-color: var(--color-accent);
   color: var(--color-text);
   transition: all 250ms ease-in;
 }
