@@ -8,10 +8,15 @@
     <meta name="description" content="발전하는 AI개발자" />
     <meta name="author" content="Donghyun" />
     <!-- 소설 미디어 공유용 메타 태그(Open Graph) -->
-    <meta property="og:title" content="동현의 프로필" />
-    <meta property="og:type" content="website " />
-    <meta property="og:url" content="배포후 생성된 URL" />
-    <meta property="og:image" content="배포후 생성된 이미지 URL" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Donghyun's Website" />
+    <meta property="og:title" content="Donghyun's Website" />
+    <meta property="og:url" content="https://dhkim395.github.io/" />
+    <meta property="og:description" content="안녕하세요! 동현입니다." />
+    <meta
+      property="og:image"
+      content="https://dhkim395.github.io/image/pro.jpg"
+    />
     <link rel="shortcut icon" href="./image/pro.ico" type="images/x-icon" />
     <link rel="stylesheet" href="./css/pro.css" />
     <!-- Font Awesome -->
@@ -50,7 +55,7 @@
           alt="Donghyun's profile"
         />
         <h2 class="home__title">
-          안녕하세요. <br /><strong class="home__title--string">김동현</strong>
+          <strong class="home__title--string">김동현</strong>
           입니다
         </h2>
         <p class="home__description">계속해서 발전하는 AI개발자 입니다!</p>
@@ -58,7 +63,7 @@
       </section>
       <!-- Home 끝 -->
       <!-- about 시작 -->
-      <section id="#about" class="section max-container">
+      <section id="about" class="section max-container">
         <h2 class="title">동현</h2>
         <p class="description">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium,
@@ -70,18 +75,18 @@
           perferendis id, ab, dignissimos illo quasi. Corporis!
         </p>
         <ul class="jobs">
-          <li class="job1">
-            <img class="job1__img" src="./image/go.png" alt="high school" />
+          <li class="job">
+            <img class="job__img" src="./image/go.png" alt="high school" />
             <div class="job__with">
-              <p class="job1__name">성덕고등학교</p>
-              <p class="job1__period">2015~2018</p>
+              <p class="job__name">성덕고등학교</p>
+              <p class="job__period">2015~2018</p>
             </div>
           </li>
-          <li class="job2">
-            <img class="job2__img" src="./image/school.png" alt="school" />
+          <li class="job">
+            <img class="job__img" src="./image/school.png" alt="school" />
             <div>
-              <p class="job2__name">강남대학교</p>
-              <p class="job2__period">2018~2025</p>
+              <p class="job__name">강남대학교</p>
+              <p class="job__period">2018~2025</p>
             </div>
           </li>
         </ul>
@@ -106,7 +111,7 @@
       <!-- about 끝 -->
 
       <!-- skills 시작 -->
-      <section id="skills" class="section">
+      <section id="skill" class="section">
         <div class="max-container">
           <h2 class="title">기술</h2>
           <p class="description">언어 및 도구</p>
@@ -187,133 +192,142 @@
       <!-- Skill 끝 -->
 
       <!-- work 시작 -->
-      <section id="work">
-        <h2>포트폴리오</h2>
-        <p>Projects</p>
-        <ul>
-          <li>
-            <button>ALL <span>10</span></button>
-          </li>
-          <li>
-            <button>Front-end <span>3</span></button>
-          </li>
-          <li>
-            <button>Mobile <span>3</span></button>
-          </li>
-          <li>
-            <button>AI <span>4</span></button>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <!-- _blank:새탭열림-->
-            <a href="#" target="_blank"></a>
-            <img src="./image/project.png" alt="project 이미지" />
-            <div>
-              <h3>project#1</h3>
-              <p>티맵</p>
-            </div>
-          </li>
-          <li>
-            <a href="#" target="_blank"></a>
-            <img src="./image/project.png" alt="project 이미지" />
-            <div>
-              <h3>project#1</h3>
-              <p>티맵</p>
-            </div>
-          </li>
-          <li>
-            <a href="#" target="_blank"></a>
-            <img src="./image/project.png" alt="project 이미지" />
-            <div>
-              <h3>project#1</h3>
-              <p>티맵</p>
-            </div>
-          </li>
-          <li>
-            <a href="#" target="_blank"></a>
-            <img src="./image/project.png" alt="project 이미지" />
-            <div>
-              <h3>project#1</h3>
-              <p>티맵</p>
-            </div>
-          </li>
-          <li>
-            <a href="#" target="_blank"></a>
-            <img src="./image/project.png" alt="project 이미지" />
-            <div>
-              <h3>project#1</h3>
-              <p>티맵</p>
-            </div>
-          </li>
-          <li>
-            <a href="#" target="_blank"></a>
-            <img src="./image/project.png" alt="project 이미지" />
-            <div>
-              <h3>project#1</h3>
-              <p>티맵</p>
-            </div>
-          </li>
-          <li>
-            <a href="#" target="_blank"></a>
-            <img src="./image/project.png" alt="project 이미지" />
-            <div>
-              <h3>project#1</h3>
-              <p>티맵</p>
-            </div>
-          </li>
-          <li>
-            <a href="#" target="_blank"></a>
-            <img src="./image/project.png" alt="project 이미지" />
-            <div>
-              <h3>project#1</h3>
-              <p>티맵</p>
-            </div>
-          </li>
-        </ul>
+      <section id="work" class="section">
+        <div class="max-container">
+          <h2 class="title">포트폴리오</h2>
+          <p class="description">Projects</p>
+          <ul class="categories">
+            <li>
+              <button class="category category--selected">
+                ALL <span class="category__count">4</span>
+              </button>
+            </li>
+            <li>
+              <button class="category">
+                Front-end <span class="category__count">1</span>
+              </button>
+            </li>
+            <li>
+              <button class="category">
+                Mobile <span class="category__count">1</span>
+              </button>
+            </li>
+            <li>
+              <button class="category">
+                AI <span class="category__count">2</span>
+              </button>
+            </li>
+          </ul>
+          <ul class="projects">
+            <li class="project">
+              <!-- _blank:새탭열림-->
+              <a href="#" target="_blank"></a>
+              <img
+                src="./image/project.png"
+                alt="project 이미지"
+                class="project__img"
+              />
+              <div class="project__metadata">
+                <h3 class="project__title">project#1</h3>
+                <p>티맵</p>
+              </div>
+            </li>
+            <li class="project">
+              <!-- _blank:새탭열림-->
+              <a href="#" target="_blank"></a>
+              <img
+                src="./image/project.png"
+                alt="project 이미지"
+                class="project__img"
+              />
+              <div class="project__metadata">
+                <h3 class="project__title">project#1</h3>
+                <p>티맵</p>
+              </div>
+            </li>
+            <li class="project">
+              <!-- _blank:새탭열림-->
+              <a href="#" target="_blank"></a>
+              <img
+                src="./image/project.png"
+                alt="project 이미지"
+                class="project__img"
+              />
+              <div class="project__metadata">
+                <h3 class="project__title">project#1</h3>
+                <p>티맵</p>
+              </div>
+            </li>
+            <li class="project">
+              <!-- _blank:새탭열림-->
+              <a href="#" target="_blank"></a>
+              <img
+                src="./image/project.png"
+                alt="project 이미지"
+                class="project__img"
+              />
+              <div class="project__metadata">
+                <h3 class="project__title">project#1</h3>
+                <p>티맵</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- work 끝 -->
 
       <!-- license 시작 -->
-      <section id="license">
-        <h2>자격증</h2>
-        <p>국가 기술 자격증</p>
-        <ul>
-          <li>
-            <img src="./image/license.webp" alt="정보처리기사 자격증" />
-            <div>
+      <section id="license" class="section max-container">
+        <h2 class="title">자격증</h2>
+        <p class="description">국가 기술 자격증</p>
+        <ul class="licenses">
+          <li class="license">
+            <img
+              class="license__img"
+              src="./image/license.webp"
+              alt="정보처리기사 자격증"
+            />
+            <div class="license__bubble">
+              <p><a href="#" class="license__bubble__name">산업인력공단</a></p>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
                 nam quis dolorum iure quo dignissimos, voluptas distinctio
                 tempora culpa natus exercitationem hic magni nihil quisquam?
                 Quibusdam eos tenetur voluptate ut.
               </p>
-              <p><a href="#"></a>산업인력공단</p>
             </div>
           </li>
-          <li>
-            <img src="./image/license.webp" alt="ADSP 자격증" />
-            <div>
+          <li class="license">
+            <img
+              class="license__img"
+              src="./image/license.webp"
+              alt="정보처리기사 자격증"
+            />
+            <div class="license__bubble">
+              <p><a href="#" class="license__bubble__name">산업인력공단</a></p>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
                 nam quis dolorum iure quo dignissimos, voluptas distinctio
                 tempora culpa natus exercitationem hic magni nihil quisquam?
                 Quibusdam eos tenetur voluptate ut.
               </p>
-              <p><a href="#"></a>한국데이터산업진흥원</p>
             </div>
           </li>
-          <li>
-            <img src="./image/license.webp" alt="데이터분석기사 자격증" />
-            <div>
+          <li class="license">
+            <img
+              class="license__img"
+              src="./image/license.webp"
+              alt="정보처리기사 자격증"
+            />
+            <div class="license__bubble">
+              <p><a href="#" class="license__bubble__name">산업인력공단</a></p>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
                 nam quis dolorum iure quo dignissimos, voluptas distinctio
                 tempora culpa natus exercitationem hic magni nihil quisquam?
                 Quibusdam eos tenetur voluptate ut.
               </p>
-              <p><a href="#"></a>한국데이터산업진흥원</p>
             </div>
           </li>
         </ul>
@@ -322,7 +336,7 @@
 
       <!-- Arrow Up -->
       <aside>
-        <a href="#home" title="위로">
+        <a href="#home" class="arrow-up" title="위로">
           <i class="fa-solid fa-arrow-up"></i>
         </a>
       </aside>
@@ -331,22 +345,32 @@
     <!-- Main 끝 -->
 
     <!-- Footer 시작 -->
-    <footer id="id">
-      <h2>연락주세요!</h2>
-      <p>skrhdla@naver.com</p>
-      <ul>
-        <li>
-          <a href="https://github.com/dhkim395" target="_blank" title="깃허브"
-            ><i class="fa-brands fa-github"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/dhkim395" target="_blank" title="깃허브"
-            ><i class="fa-brands fa-github"></i>
-          </a>
-        </li>
-      </ul>
-      <p>&copy; Donghyun - All rights reserved</p>
+    <footer id="contact" class="section">
+      <div class="max-container">
+        <h2 class="title">연락주세요!</h2>
+        <p class="description">skrhdla@naver.com</p>
+        <ul class="contact__links">
+          <li>
+            <a
+              class="contact__link"
+              href="https://github.com/dhkim395"
+              target="_blank"
+              title="깃허브"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              class="contact__link"
+              href="https://github.com/dhkim395"
+              target="_blank"
+              title="깃허브"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+        </ul>
+        <p>&copy; Donghyun - All rights reserved</p>
+      </div>
     </footer>
     <!-- Footer 끝 -->
   </body>
